@@ -1,0 +1,10 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m"> 
+<SelectDialog
+title="Select POAM No" items="{/}" 
+confirm="onConfirmPoamNo" liveChange = ".onLiveChangePOAMNO"
+change="onSelect" rememberSelections="true" 
+ search=".onSearchPOAMNO" >
+ <StandardListItem title="{amdno}" press="onPressSPOAMNO">
+</StandardListItem>
+</SelectDialog> 
+</core:FragmentDefinition>  
